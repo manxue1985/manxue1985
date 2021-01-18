@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Myfirst // My New Hugo Site test</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    
+    
+    
+
+        <meta property="og:title" content="Myfirst" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en" />
+    <meta property="og:url" content="https://manxue1985.github.io/post/myfirst/" />
+    
+
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <link href="https://manxue1985.github.io/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
+    <link href="https://manxue1985.github.io/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="https://manxue1985.github.io/css/style.css">
+    
+
+    <meta name="generator" content="Hugo 0.80.0" />
+</head>
+
+
+<body>
+<div id="container">
+    <header id="header">
+    <div id="header-outer" class="outer">
+        <div id="header-inner" class="inner">
+            <a id="main-nav-toggle" class="nav-icon" href="javascript:;"></a>
+            <a id="logo" class="logo-text" href="https://manxue1985.github.io/">My New Hugo Site test</a>
+            <nav id="main-nav">
+                
+            </nav>
+            <nav id="sub-nav">
+                <div id="search-form-wrap">
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+    <section id="main" class="outer">
+        <article class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        <header class="article-header">
+            <h1 class="article-title" itemprop="name">Myfirst</h1>
+        </header>
+        
+        <div class="article-meta">
+            <a href="/post/myfirst/" class="article-date">
+                <time datetime='2021-01-18T13:42:04.000&#43;08:00' itemprop="datePublished">2021-01-18</time>
+            </a>
+            
+            
+            
+        </div>
+        <div class="article-entry" itemprop="articleBody">
+            <p>Operational guidelines</p>
+<p>Install tools</p>
+<p>Install git bash</p>
+<ol>
+<li>
+<p>Download Git installation package</p>
+<p>You can download the package in the web  <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a> .</p>
+</li>
+<li>
+<p>Unzip and Install</p>
+</li>
+<li>
+<p>Configure git bash</p>
+<p>configure user name and email in the following way</p>
+<p><img src="myfirst.assets/git.png" alt="git"></p>
+<p><img src="myfirst.assets/sshkey.png" alt="ssh23"></p>
+<p>If configure success, you can enter <em>git config -l</em>, and  verify that .</p>
+</li>
+<li>
+<p>Configure SSH key</p>
+<ol>
+<li>
+<p>Generate SSH key</p>
+<p>Open Git Bash, enter <em>ssh-keygen -t rsa -C “275862458@qq.com”</em> , it will generate SSH key.</p>
+<p>If the secret key is generated successfully, go to the <code>C:\Users\liuco\.ssh</code> folder, then open id_rsa.pub with the notepad, get the public key.</p>
+<p>插入sshkey获取的图片</p>
+</li>
+<li>
+<p>Configure the SSH key for your GitHub account</p>
+</li>
+</ol>
+<ul>
+<li><input disabled="" type="checkbox"> Load github account, Click the Settings button for your personal account,  then click <strong>SSH and GPS keys</strong>.</li>
+<li><input disabled="" type="checkbox"> Open  SSH keys menu,  click <strong>New SSH key</strong>, enter the title of the key, and Copy the content of the id_ras.pub file to the Key, finally, click <strong>Add SSH key</strong></li>
+</ul>
+</li>
+</ol>
+<h3 id="install-hugo">Install hugo</h3>
+<ol>
+<li>
+<h4 id="download-package-and-unzip">Download package and Unzip</h4>
+<ul>
+<li>
+<p><input disabled="" type="checkbox"> Download the appropriate version for your platform from <a href="https://github.com/gohugoio/hugo/releases">Hugo Releases</a>. (eg: hugo_0.80.0_Windows_64bit.zip)</p>
+<p>插入图片</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> Move the ZIP file into your <code>C:\Users\liuco\hugo</code> folder.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> Double-click on the ZIP file and extract its contents. Be sure to extract the contents into the same <code>C:\Users\liuco\hugo</code> folder.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> You should now have three new files: The hugo executable (<code>hugo.exe</code>), <code>LICENSE</code>, and <code>README.md</code>.</p>
+<p>插入图片</p>
+</li>
+</ul>
+</li>
+<li>
+<h4 id="add-hugo-to-your-windows-path-settings">add Hugo to your Windows PATH settings:</h4>
+</li>
+</ol>
+<p><strong>For Windows 10 Users:</strong></p>
+<ul>
+<li>
+<p><input disabled="" type="checkbox"> Right click on the <strong>Start</strong> button.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> Click on <strong>System</strong>.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> Click on <strong>Advanced System Settings</strong> on the left.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> Click on the <strong>Environment Variables…</strong> button on the bottom.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> In the User variables section, find the row that starts with PATH (PATH will be all caps).</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> Double-click on <strong>PATH</strong>.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> Click the <strong>New…</strong> button.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> Type in the folder where <code>hugo.exe</code> was extracted, which is <code>C:\Users\liuco\hugo</code> if you went by the instructions above. The PATH entry should be the folder where Hugo lives and not the binary. Press Enter when you’re done typing.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> Click OK at every window to exit.</p>
+<p>插入图片</p>
+</li>
+</ul>
+<p>Open a Command Prompt, change your directory the hugo directory, enter *hugo version to verify your new install</p>
+<p><code>C:\Users\liuco&gt;cd hugo</code></p>
+<p><code>C:\Users\liuco\hugo&gt;hugo version</code></p>
+<h2 id="make--documentation-website">Make  Documentation Website</h2>
+<h3 id="create-a-new-site">Create a NEW Site</h3>
+<ul>
+<li><input disabled="" type="checkbox"> Enter the  <code>C:\Users\liuco\hugo</code> folder, Right click and open <strong>Git Bash here</strong> .</li>
+<li><input disabled="" type="checkbox"> enter <em>hugo new site mydocs</em> , A new Hugo site will be created in a folder named <code>mydocs</code></li>
+</ul>
+<h3 id="add-a-theme">Add a Theme</h3>
+<h3 id="add-the-doc-of-guide-and-start-the-hugo-server">Add the doc of guide and Start the hugo server</h3>
+<h2 id="upload-the-site-to-the-github">Upload the site to the github</h2>
+
+        </div>
+
+        
+        
+        <div class="article-toc" >
+            <h3>Contents</h3>
+            <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#install-hugo">Install hugo</a></li>
+      </ul>
+    </li>
+    <li><a href="#make--documentation-website">Make  Documentation Website</a>
+      <ul>
+        <li><a href="#create-a-new-site">Create a NEW Site</a></li>
+        <li><a href="#add-a-theme">Add a Theme</a></li>
+        <li><a href="#add-the-doc-of-guide-and-start-the-hugo-server">Add the doc of guide and Start the hugo server</a></li>
+      </ul>
+    </li>
+    <li><a href="#upload-the-site-to-the-github">Upload the site to the github</a></li>
+  </ul>
+</nav>
+        </div>
+        
+        
+
+        
+
+
+        
+    </div>
+    
+<nav id="article-nav">
+    
+    
+</nav>
+
+
+</article>
+
+        
+    </section>
+    <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            &copy; 2021 My New Hugo Site test
+            <br />
+            Powered by <a href="https://gohugo.io" target="_blank">Hugo</a> with theme <a href="https://github.com/carsonip/hugo-theme-minos" target="_blank">Minos</a>
+        </div>
+    </div>
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/tomorrow-night.min.css" integrity="sha256-2wL88NKUqvJi/ExflDzkzUumjUM73mcK2gBvBBeLvTk=" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js" integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin="anonymous"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    <script>
+        document.getElementById('main-nav-toggle').addEventListener('click', function () {
+            var header = document.getElementById('header');
+            if (header.classList.contains('mobile-on')) {
+                header.classList.remove('mobile-on');
+            } else {
+                header.classList.add('mobile-on');
+            }
+        });
+    </script>
+</footer>
+
+</div>
+</body>
+</html>

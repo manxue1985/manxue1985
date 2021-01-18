@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site test</title>
+    <link>https://manxue1985.github.io/</link>
+    <description>Recent content on My New Hugo Site test</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Jan 2021 13:42:04 +0800</lastBuildDate><atom:link href="https://manxue1985.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Myfirst</title>
+      <link>https://manxue1985.github.io/post/myfirst/</link>
+      <pubDate>Mon, 18 Jan 2021 13:42:04 +0800</pubDate>
+      
+      <guid>https://manxue1985.github.io/post/myfirst/</guid>
+      <description>Operational guidelines
+Install tools
+Install git bash
+  Download Git installation package
+You can download the package in the web https://git-scm.com/downloads .
+  Unzip and Install
+  Configure git bash
+configure user name and email in the following way
+If configure success, you can enter git config -l, and verify that .
+  Configure SSH key
+  Generate SSH key
+Open Git Bash, enter ssh-keygen -t rsa -C “275862458@qq.</description>
+    </item>
+    
+  </channel>
+</rss>
